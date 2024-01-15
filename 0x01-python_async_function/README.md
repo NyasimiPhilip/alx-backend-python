@@ -1,5 +1,6 @@
 <h2>Tasks</h2>
-    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/0-basic_async_syntax.py">0. The basics of async</a></h3>    
+    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/0-basic_async_syntax.py">0. The basics of async</a></h3> 
+    <p><code>0-basic_async_syntax.py</code></p>
     <p>Write an asynchronous coroutine that takes in an integer argument (max_delay, with a default value of 10) named wait_random that waits for a random delay between 0 and max_delay (included and float value) seconds and eventually returns it.</p>
     <p>Use the random module.</p>
     <pre>        
@@ -17,7 +18,8 @@
                 10.634589756751769
         </code>
     </pre>  
-    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/1-concurrent_coroutines.py">1. Let's execute multiple coroutines at the same time with async</a></h3>    
+    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/1-concurrent_coroutines.py">1. Let's execute multiple coroutines at the same time with async</a></h3>  
+    <p><code>1-concurrent_coroutines.py</code></p>
     <p>Import wait_random from the previous python file that you've written and write an async routine called wait_n that takes in 2 int arguments (in this order): n and max_delay. You will spawn wait_random n times with the specified max_delay.</p>
     <p>wait_n should return the list of all the delays (float values). The list of the delays should be in ascending order without using sort() because of concurrency.</p>
     <pre>       
@@ -33,7 +35,8 @@
             ./1-main.py
         </code>
     </pre>  
-    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/2-measure_runtime.py">2. Measure the runtime</a></h3>   
+    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/2-measure_runtime.py">2. Measure the runtime</a></h3>
+    <p><code>2-measure_runtime.py</code></p>
     <p>From the previous file, import wait_n into 2-measure_runtime.py.</p>
     <p>Create a measure_time function with integers n and max_delay as arguments that measures the total execution time for wait_n(n, max_delay), and returns total_time / n. Your function should return a float.</p>
     <p>Use the time module to measure an approximate elapsed time.</p>
@@ -47,7 +50,8 @@
             print(measure_time(n, max_delay))
         </code>
     </pre>   
-    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/3-tasks.py">3. Tasks</a></h3>    
+    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/3-tasks.py">3. Tasks</a></h3>
+    <p><code>3-tasks.py</code></p>
     <p>Import wait_random from 0-basic_async_syntax.</p>
     <p>Write a function (do not create an async function, use the regular function syntax to do this) task_wait_random that takes an integer max_delay and returns a asyncio.Task.</p>
     <pre>      
@@ -63,7 +67,8 @@
             asyncio.run(test(5))
         </code>
     </pre>   
-    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/4-tasks.py">4. Tasks</a></h3>   
+    <h3><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x01-python_async_function/4-tasks.py">4. Tasks</a></h3> 
+    <p><code>4-tasks.py</code></p>
     <p>Take the code from wait_n and alter it into a new function task_wait_n. The code is nearly identical to wait_n except task_wait_random is being called.</p>
     <pre>       
         <code>
