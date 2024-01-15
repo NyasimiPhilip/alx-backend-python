@@ -12,7 +12,8 @@
             print(asyncio.run(wait_random(5)))
             print(asyncio.run(wait_random(15)))
         </code>
-    </pre>   
+    </pre>  
+    <h3>1. Let's execute multiple coroutines at the same time with async</h3> 
     <p><strong>Mandatory</strong></p>
     <p>Import wait_random from the previous python file that you've written and write an async routine called wait_n that takes in 2 int arguments (in this order): n and max_delay. You will spawn wait_random n times with the specified max_delay.</p>
     <p>wait_n should return the list of all the delays (float values). The list of the delays should be in ascending order without using sort() because of concurrency.</p>
@@ -26,7 +27,8 @@
             print(asyncio.run(wait_n(10, 7)))
             print(asyncio.run(wait_n(10, 0)))
         </code>
-    </pre>   
+    </pre>  
+    <h3>2. Measure the runtime</h3> 
     <p><strong>Mandatory</strong></p>
     <p>From the previous file, import wait_n into 2-measure_runtime.py.</p>
     <p>Create a measure_time function with integers n and max_delay as arguments that measures the total execution time for wait_n(n, max_delay), and returns total_time / n. Your function should return a float.</p>
