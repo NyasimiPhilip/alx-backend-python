@@ -66,7 +66,7 @@ asyncio.run(main());
 </section>
 
 <section>
-    <h2>2. Run time for four parallel comprehensions<br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/2-measure_runtime.py">2-measure_runtime.py</a> </h2>
+    <h2>2. Run time for four parallel comprehensions<br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/2-measure_runtime.py">2-measure_runtime.py</a></code></h2>
     <p>Import <code>async_comprehension</code> from the previous file and write a <code>measure_runtime</code> coroutine that will execute <code>async_comprehension</code> four times in parallel using <code>asyncio.gather</code>.</p>
     <p><code>measure_runtime</code> should measure the total runtime and return it.</p>
     <p>Notice that the total runtime is roughly 10 seconds, explain it to yourself.</p>
