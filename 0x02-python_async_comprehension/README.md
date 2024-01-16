@@ -1,5 +1,5 @@
 <section>
-    <h2>0. Async Generator (mandatory)</h2>
+    <h2>0. Async Generator <code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/0-async_generator.py">0-async_generator.py</a></code></h2>
     <p>Write a coroutine called <code>async_generator</code> that takes no arguments.</p>
     <p>The coroutine will loop 10 times, each time asynchronously waiting 1 second, then yielding a random number between 0 and 10. Use the random module.</p>
     <pre><code>
