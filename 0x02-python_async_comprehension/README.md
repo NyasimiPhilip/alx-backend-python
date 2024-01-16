@@ -34,7 +34,7 @@ asyncio.run(print_yielded_values());
     
 </section>
 <section>
-    <h2>1. Async Comprehensions <br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/1-async_comprehension.py"></h2>
+    <h2>1. Async Comprehensions <br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/1-async_comprehension.py">1-async_comprehension.py</a></h2>
     <p>Import <code>async_generator</code> from the previous task and then write a coroutine called <code>async_comprehension</code> that takes no arguments.</p>
     <p>The coroutine will collect 10 random numbers using an async comprehension over <code>async_generator</code>, then return the 10 random numbers.</p>
     <pre><code>
