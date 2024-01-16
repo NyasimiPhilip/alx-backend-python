@@ -1,5 +1,5 @@
 <section>
-    <h2>0. Async Generator <code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/0-async_generator.py">0-async_generator.py</a></code></h2>
+    <h2>0. Async Generator<br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/0-async_generator.py">0-async_generator.py</a></code></h2>
     <p>Write a coroutine called <code>async_generator</code> that takes no arguments.</p>
     <p>The coroutine will loop 10 times, each time asynchronously waiting 1 second, then yielding a random number between 0 and 10. Use the random module.</p>
     <pre><code>
@@ -35,7 +35,7 @@ asyncio.run(print_yielded_values());
 </section>
 
 <section>
-    <h2>1. Async Comprehensions (mandatory)</h2>
+    <h2>1. Async Comprehensions <br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/1-async_comprehension.py"></h2>
     <p>Import <code>async_generator</code> from the previous task and then write a coroutine called <code>async_comprehension</code> that takes no arguments.</p>
     <p>The coroutine will collect 10 random numbers using an async comprehension over <code>async_generator</code>, then return the 10 random numbers.</p>
     <pre><code>
@@ -67,7 +67,7 @@ asyncio.run(main());
 </section>
 
 <section>
-    <h2>2. Run time for four parallel comprehensions (mandatory)</h2>
+    <h2>2. Run time for four parallel comprehensions<br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/2-measure_runtime.py"> </h2>
     <p>Import <code>async_comprehension</code> from the previous file and write a <code>measure_runtime</code> coroutine that will execute <code>async_comprehension</code> four times in parallel using <code>asyncio.gather</code>.</p>
     <p><code>measure_runtime</code> should measure the total runtime and return it.</p>
     <p>Notice that the total runtime is roughly 10 seconds, explain it to yourself.</p>
