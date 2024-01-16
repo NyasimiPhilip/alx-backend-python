@@ -1,9 +1,7 @@
 <section>
     <h2>0. Async Generator (mandatory)</h2>
     <p>Write a coroutine called <code>async_generator</code> that takes no arguments.</p>
-
     <p>The coroutine will loop 10 times, each time asynchronously waiting 1 second, then yielding a random number between 0 and 10. Use the random module.</p>
-
     <pre><code>
 bob@dylan:~$ cat 0-main.py
 #!/usr/bin/env python3
@@ -45,7 +43,6 @@ async def main():
 asyncio.run(main());
     </code></pre>
     <p>Output:</p>
-
     <pre><code>
 [9.861842105071727, 8.572355293354995, 1.7467182056248265, 4.0724372912858575, 0.5524750922145316, 8.084266576021555, 8.387128918690468, 1.5486451376520916, 7.713335177885325, 7.673533267041574]
     </code></pre>   
@@ -71,11 +68,9 @@ print(
     asyncio.run(main())
 );
     </code></pre>
-
     <p>Output:</p>
 
     <pre><code>
 10.021936893463135
     </code></pre> 
-
 </section>
