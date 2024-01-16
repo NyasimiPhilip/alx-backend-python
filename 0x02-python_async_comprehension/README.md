@@ -33,7 +33,6 @@ asyncio.run(print_yielded_values());
     </code></pre>
     
 </section>
-
 <section>
     <h2>1. Async Comprehensions <br><code><a href="https://github.com/NyasimiPhilip/alx-backend-python/blob/master/0x02-python_async_comprehension/1-async_comprehension.py"></h2>
     <p>Import <code>async_generator</code> from the previous task and then write a coroutine called <code>async_comprehension</code> that takes no arguments.</p>
