@@ -14,4 +14,4 @@ wait_random = getattr(module, 'wait_random')
 print(asyncio.run(wait_random()))
 print(asyncio.run(wait_random(5)))
 print(asyncio.run(wait_random(15)))
-hash -r
+
